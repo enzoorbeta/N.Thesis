@@ -4,8 +4,7 @@ body {
 }
 
 .outer-div {
-    max-width: 1366px;
-    max-height: 768px;
+    max-width: auto;
     height: 100%;
     width: 100%;
     background: white;
