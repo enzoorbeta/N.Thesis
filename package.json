@@ -1,0 +1,23 @@
+{
+  "name": "n.thesis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files \"css/*.css\" --files \"js/*.js\" --files \"*.html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzoorbeta/N.Thesis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enzoorbeta/N.Thesis/issues"
+  },
+  "homepage": "https://github.com/enzoorbeta/N.Thesis#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8"
+  }
+}
