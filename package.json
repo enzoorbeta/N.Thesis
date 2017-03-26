@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "browser-sync start --server --files \"css/*.css\" --files \"js/*.js\" --files \"*.html\" --browser \"chrome\"",
+    "start": "browser-sync start --server --files \"css/*.css\" --files \"js/*.js\" --files \"*.html\"",
     "surge": "surge ./"
   },
   "repository": {
