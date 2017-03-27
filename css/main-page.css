@@ -12,12 +12,16 @@ body {
 
 .inner-div {
     height: 100%;
-    
+
 }
 
 .first-fold {
     min-height: 100vh;
     overflow: hidden;
+}
+
+.main-video poster {
+  width: 100%;
 }
 
 .main-video {
@@ -121,8 +125,15 @@ a {
     font-size: 14px;
     font-weight: 500;
 }
-
 .third-fold {
     min-height: 100vh;
     overflow: hidden;
+}
+
+.content-first-half {
+  height: 50%;
+}
+
+.content-second-half {
+  height: 50%;
 }
