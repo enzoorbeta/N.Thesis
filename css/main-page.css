@@ -121,3 +121,8 @@ a {
     font-size: 14px;
     font-weight: 500;
 }
+
+.third-fold {
+    min-height: 100vh;
+    overflow: hidden;
+}

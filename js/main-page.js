@@ -4,5 +4,5 @@ var evt = new Event(),
     thumb: '.thumb',
     mode: 'inside',
     zoom: 3,
-    zoomable: true
+    zoomable: false,
 });
