@@ -127,3 +127,18 @@
   letter-spacing: 8px;
   font-size: 40pt;
 }
+
+#fourth-fold-inner-div {
+  width: 80%;
+  max-width: 1300px;
+}
+
+.fourth-fold-first-tile {
+  flex-direction:column;
+}
+
+.fourth-fold-text {
+  color: white;
+  letter-spacing: 4px;
+  font-size: 18pt;
+}
