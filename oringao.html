@@ -129,8 +129,8 @@
             <img src="./media/one-weave-footer.png" style="width: 220px;" alt="">
           </div>
           <div class="column">
-            <p class="footer-text"><a href=""> WEAVING TEXTILES</a></p>
-            <p class="footer-text"><a href="">LEARN MORE ABOUT THE WEAVERS</a></p>
+            <p class="footer-text"><a id="to-weaves" href=""> WEAVING TEXTILES</a></p>
+            <p class="footer-text"><a id="to-weavers" href="">LEARN MORE ABOUT THE WEAVERS</a></p>
           </div>
           <div class="column tile footer-column">
             <img src="./media/mountain-footer.png" style="width: 140px;" alt="">
@@ -138,6 +138,18 @@
         </div>
       </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script>
+      $('#to-weaves').on('click', function (e) {
+        e.preventDefault();
+        window.location.assign("/#weaves-fold");
+      })
+      $('#to-weavers').on('click', function (e) {
+        e.preventDefault();
+        window.location.assign("/#weavers-fold");
+      })
+    </script>
 </body>
 
 </html>
