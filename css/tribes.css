@@ -40,6 +40,8 @@
 
 #second-fold {
   background-color: #EBAB37;
+  align-items: center;
+  justify-content: center;
 }
 #hero-banner-text {
   color: white;
