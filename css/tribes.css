@@ -1,11 +1,11 @@
 .outer-div {
   height: 100%;
   width: 100%;
-  background: white; 
+  background: white;
 }
 
 .inner-div {
- max-width: 1040px; 
+ max-width: 1040px;
  margin: 0 auto;
 }
 
@@ -61,7 +61,7 @@
 }
 #second-fold, #third-fold {
   height: 100vh;
-  display: flex;  
+  display: flex;
 }
 
 #second-fold-wrapper {
@@ -86,7 +86,7 @@
 }
 
 #third-fold {
- height: 100vh; 
+ height: 100vh;
 }
 
 #third-fold-inner-div {
@@ -117,7 +117,7 @@
 }
 
 #fourth-fold {
-  height: 100vh; 
+  height: 100vh;
   background-color: #E76251;
 }
 
@@ -126,6 +126,7 @@
   text-align: left;
   letter-spacing: 8px;
   font-size: 40pt;
+  margin-left: -10px;
 }
 
 #fourth-fold-inner-div {
@@ -140,5 +141,21 @@
 .fourth-fold-text {
   color: white;
   letter-spacing: 4px;
-  font-size: 18pt;
+  font-size: 16pt;
+}
+
+.footer-text {
+  color: #E76251;
+  letter-spacing: 4px;
+  text-align:center;
+  font-size: 10pt;
+}
+
+.footer-columns-wrapper {
+  align-items: center;
+}
+
+.footer-column {
+  align-items: center;
+    justify-content: center;
 }
