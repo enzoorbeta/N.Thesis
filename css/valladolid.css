@@ -15,18 +15,7 @@
   background-size : cover;
 }
 
-.nav {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
-.nav-item {
-  padding: 0px 45px;
-  font-size: 10pt;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 3px;
-}
 
 .hero-container {
   display: flex;
@@ -39,10 +28,12 @@
 }
 
 #second-fold {
-  background-color: #EBAB37;
+  background-color: #4A2A49;
   align-items: center;
   justify-content: center;
 }
+
+
 #hero-banner-text {
   color: white;
   font-size: 108pt;
@@ -142,20 +133,4 @@
   color: white;
   letter-spacing: 4px;
   font-size: 16pt;
-}
-
-.footer-text {
-  color: #E76251;
-  letter-spacing: 4px;
-  text-align:center;
-  font-size: 10pt;
-}
-
-.footer-columns-wrapper {
-  align-items: center;
-}
-
-.footer-column {
-  align-items: center;
-    justify-content: center;
 }

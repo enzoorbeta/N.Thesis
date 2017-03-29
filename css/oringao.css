@@ -1,0 +1,144 @@
+.outer-div {
+  height: 100%;
+  width: 100%;
+  background: white;
+}
+
+.inner-div {
+ max-width: 1040px;
+ margin: 0 auto;
+}
+
+.hero-tribe {
+  background: url('../media/oringao-hero.JPG') no-repeat fixed center center;
+  height: 100vh;
+  background-size : cover;
+}
+
+
+
+.hero-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 15vh;
+}
+
+
+#oringao-second {
+  background-color: #EBAB37;
+  align-items: center;
+  justify-content: center;
+}
+#second-fold {
+  background-color: #EBAB37;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#hero-banner-text {
+  color: white;
+  font-size: 108pt;
+}
+.header {
+  font-family: 'Avenir-Next';
+  font-weight: 200;
+}
+
+.body {
+  font-family: 'Avenir'
+}
+
+.banner {
+  font-family: 'Trat';
+}
+#second-fold, #third-fold {
+  height: 100vh;
+  display: flex;
+}
+
+#second-fold-wrapper {
+
+}
+
+#second-fold-title {
+  color: white;
+  text-align:center;
+  letter-spacing: 6px;
+}
+#second-fold-text {
+  color: white;
+  letter-spacing: 3px;
+  text-align: justify;
+  padding-right: 20px;
+  font-size: 14pt;
+}
+
+#second-fold-weaves-wrapper {
+  padding-left: 20px;
+}
+
+#third-fold {
+ height: 100vh;
+}
+
+#third-fold-inner-div {
+  width:95%;
+}
+
+#third-fold-title {
+  color: #E76251;
+  text-align:center;
+  letter-spacing: 8px;
+  font-size: 36pt;
+
+}
+
+.weave-tile {
+  height: 270px;
+  width: 270px;
+}
+.third-fold-tile {
+  align-items: center;
+  flex-direction: column;
+}
+
+.third-fold-text {
+  color: #E76251;
+  letter-spacing: 4px;
+  font-size: 24pt;
+}
+
+#fourth-fold {
+  height: 100vh;
+  background-color: #E76251;
+}
+
+#fourth-fold-title {
+  color: white;
+  text-align: left;
+  letter-spacing: 8px;
+  font-size: 40pt;
+  margin-left: -10px;
+}
+
+#fourth-fold-inner-div {
+  width: 80%;
+  max-width: 1300px;
+}
+
+.fourth-fold-first-tile {
+  flex-direction:column;
+}
+
+.fourth-fold-text {
+  color: white;
+  letter-spacing: 4px;
+  font-size: 16pt;
+}
+
+

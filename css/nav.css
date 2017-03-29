@@ -1,0 +1,12 @@
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-item {
+  padding: 0px 45px;
+  font-size: 10pt;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
