@@ -79,7 +79,12 @@
 }
 
 #second-fold-weaves-wrapper {
-  padding-left: 20px;
+
+}
+
+#second-fold-weaves-wrapper > div {
+  align-items: center;
+  justify-content: center;
 }
 
 #third-fold {

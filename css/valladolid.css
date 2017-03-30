@@ -10,7 +10,7 @@
 }
 
 .hero-tribe {
-  background: url('../media/oringao-hero.JPG') no-repeat fixed center center;
+  background: url('../media/valladolid-hero.JPG') no-repeat fixed center center;
   height: 100vh;
   background-size : cover;
 }
@@ -73,7 +73,9 @@
 }
 
 #second-fold-weaves-wrapper {
-  padding-left: 20px;
+  align-items:center;
+  justify-content:  center;
+
 }
 
 #third-fold {
@@ -85,38 +87,45 @@
 }
 
 #third-fold-title {
-  color: #E76251;
+  color: #EBAB38;
   text-align:center;
   letter-spacing: 8px;
-  font-size: 36pt;
+  font-size: 24pt;
 
 }
 
 .weave-tile {
-  height: 270px;
-  width: 270px;
+  height: 230px;
+  width: 230px;
 }
 .third-fold-tile {
   align-items: center;
-  flex-direction: column;
+  justify-content:center;
+  padding: 5px;
+}
+
+.third-fold-tile > img {
+  margin :5px;
 }
 
 .third-fold-text {
-  color: #E76251;
-  letter-spacing: 4px;
-  font-size: 24pt;
+  color: #421C42;
+  letter-spacing: 1px;
+  font-size: 18pt;
+  text-align:center;
 }
 
 #fourth-fold {
   height: 100vh;
-  background-color: #E76251;
+  background: url('../media/valladolid-fourth-bg.png')  no-repeat center center;
+  background-size: cover;
 }
 
 #fourth-fold-title {
   color: white;
   text-align: left;
   letter-spacing: 8px;
-  font-size: 40pt;
+  font-size: 32pt;
   margin-left: -10px;
 }
 
@@ -131,6 +140,10 @@
 
 .fourth-fold-text {
   color: white;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   font-size: 16pt;
+}
+
+.bold {
+  font-weight: bold;
 }
