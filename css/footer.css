@@ -1,0 +1,15 @@
+.footer-text {
+  color: #E76251;
+  letter-spacing: 4px;
+  text-align:center;
+  font-size: 10pt;
+}
+
+.footer-columns-wrapper {
+  align-items: center;
+}
+
+.footer-column {
+  align-items: center;
+    justify-content: center;
+}
