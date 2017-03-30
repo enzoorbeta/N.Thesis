@@ -15,6 +15,7 @@
   background-size : cover;
 }
 
+
 .nav {
   max-width: 1200px;
   margin: 0 auto;
@@ -43,6 +44,7 @@
   align-items: center;
   justify-content: center;
 }
+
 #hero-banner-text {
   color: white;
   font-size: 108pt;
@@ -62,10 +64,6 @@
 #second-fold, #third-fold {
   height: 100vh;
   display: flex;
-}
-
-#second-fold-wrapper {
-
 }
 
 #second-fold-title {

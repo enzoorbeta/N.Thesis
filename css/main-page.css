@@ -1,6 +1,9 @@
+
+
 body {
     width: auto;
     margin: 0;
+    font-family: 'Avenir';
 }
 
 .outer-div {
@@ -20,17 +23,29 @@ body {
     overflow: hidden;
 }
 
-.main-video poster {
+
+.video-filter {
+  height: 100vh;
   width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ background: rgba(30, 30, 30, 0.2);
+ z-index:1;
 }
 
+
 .main-video {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    background: url('../media/WearOurTribe.png') no-repeat 0 0;
-    background-size: cover;
+position: absolute;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+background: transparent url('../media/WearOurTribe.png') no-repeat 0 0;
+background-size: cover;
+
 }
 
 .main-nav {
@@ -40,12 +55,31 @@ body {
     margin-top: 40;
     margin-right: 150px;
     width: auto;
+    z-index: 2;
 }
 
 .main-logo{
     position: absolute;
     top: 42;
     left: 120;
+    z-index: 2;
+}
+
+.main-header {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 45;
+  right: 45;
+  color: white;
+  font-family: 'Trat';
+
+}
+
+.main-header > h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 108pt;
 }
 
 .nav {
@@ -106,11 +140,28 @@ a {
     letter-spacing: 6px;
     font-family: Avenir;
     font-weight: bold;
+    color: #E76251;
 }
 
 .overview-of-weaves {
     text-align: center;
     box-sizing: border-box;
+}
+
+.violet {
+  color: #72366c;
+}
+
+.yellow {
+  color: #EBAB38;
+}
+
+.red {
+  color: #E76251;
+}
+
+.blue {
+  color: #354D89;
 }
 
 .overview-of-weaves h3 {
@@ -148,24 +199,23 @@ a {
 .overview-of-weaver {
   height: 100%;
   width: 100%;
-  background: rgba(30, 30, 30, 0.7);
+  background: rgba(35, 31, 32, 0.46);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 .overview-of-weaver h1 {
   margin: 0;
   color: white;
-  padding: 70 0 30 0;
+  padding: 70 0 10 0;
 }
 
 .button {
-  background-color: orange;
+  background-color: #fdc351;
   border: none;
   color: white;
-  padding: 5px 25px;
+  padding: 3px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -173,34 +223,35 @@ a {
   border-radius: 15px;
 }
 
-.overview-of-weaver h5 {
+.button h5 {
+  font-size: 10px;
 }
 
 #top-left {
   height: 100%;
   width: 100%;
-  background: url('../media/WearOurTribe.png');
+  background: url('../media/Tribe4.jpg');
   background-size: cover;
 }
 
 #top-right {
   height: 100%;
   width: 100%;
-  background: url('../media/WearOurTribe.png');
+  background: url('../media/Tribe2.jpg');
   background-size: cover;
 }
 
 #bottom-left {
   height: 100%;
   width: 100%;
-  background: url('../media/WearOurTribe.png');
+  background: url('../media/Tribe1.jpg');
   background-size: cover;
 }
 
 #bottom-right {
   height: 100%;
   width: 100%;
-  background: url('../media/WearOurTribe.png');
+  background: url('../media/Tribe3.jpg');
   background-size: cover;
 }
 
@@ -225,4 +276,26 @@ a {
   padding-left: 5px !important;
   padding-right: 0px !important;
   padding-top: 5px !important;
+}
+
+
+.container-footer {
+  height: 220px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fdc351;
+
+}
+.footer-text {
+  text-align: center;
+}
+
+.container-footer > div {
+  width: 30%;
+}
+
+.footer-picture img {
+  display: block;
+  margin: 0 auto;
 }
