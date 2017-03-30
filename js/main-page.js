@@ -6,3 +6,4 @@ var evt = new Event(),
     zoom: 3,
     zoomable: false,
 });
+

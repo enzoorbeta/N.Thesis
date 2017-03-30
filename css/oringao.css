@@ -17,6 +17,7 @@
 
 
 
+
 .hero-container {
   display: flex;
   width: 100%;
@@ -59,10 +60,6 @@
 #second-fold, #third-fold {
   height: 100vh;
   display: flex;
-}
-
-#second-fold-wrapper {
-
 }
 
 #second-fold-title {
