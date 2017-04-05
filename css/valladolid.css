@@ -37,6 +37,7 @@
 #hero-banner-text {
   color: white;
   font-size: 108pt;
+  text-align: center;
 }
 .header {
   font-family: 'Avenir-Next';
@@ -55,7 +56,19 @@
   display: flex;
 }
 
+#second-fold {
+  background-color: white;
+  padding: 0;
+}
+
 #second-fold-wrapper {
+  position: relative;
+  width: 1040px;
+    height: 100%
+
+}
+
+#second-fold-patch {
 
 }
 
@@ -68,18 +81,37 @@
   color: white;
   letter-spacing: 3px;
   text-align: justify;
-  padding-right: 20px;
+  position:absolute;
+  height: 100%;
+  width: 45%;
   font-size: 14pt;
+  background-color: #0D206F;
+  right: 0;
+}
+
+#second-fold-patch {
+  background-color: red;
+  width: 400px;
+  height: 400px;
+  transform: rotate(45deg);
+  top: 37%;
+  left: 15%;
+  position: absolute;
 }
 
 #second-fold-weaves-wrapper {
   align-items:center;
   justify-content:  center;
 
+
 }
 
 #third-fold {
  height: 100vh;
+ background-color: yellow;
+ position: relative;
+ overflow:hidden;
+
 }
 
 #third-fold-inner-div {
@@ -107,7 +139,18 @@
 .third-fold-tile > img {
   margin :5px;
 }
+#third-fold::after {
+    content: ' ';
+    width: 100vw;
+    height: 100vh;
+    transform: rotate(50deg);
+    top: -150;
+    right: -750;
+    position: absolute;
+    background-color: white;
 
+
+}
 .third-fold-text {
   color: #421C42;
   letter-spacing: 1px;

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "browser-sync start --server --files \"css/*.css\" --files \"js/*.js\" --files \"*.html\"",
-    "surge": "surge ./"
+    "surge": "surge ./ weaves.surge.sh"
   },
   "repository": {
     "type": "git",

@@ -57,9 +57,15 @@
   display: flex;
 }
 
-#second-fold-wrapper {
+#second-fold-weaves-wrapper {
 
 }
+
+#second-fold-weaves-wrapper > div {
+  align-items: center;
+  justify-content: center;
+}
+
 
 #second-fold-title {
   color: white;
@@ -74,9 +80,6 @@
   font-size: 14pt;
 }
 
-#second-fold-weaves-wrapper {
-  padding-left: 20px;
-}
 
 #third-fold {
  height: 100vh;
