@@ -68,7 +68,7 @@ background-size: cover;
 .main-header {
   position: absolute;
   z-index: 3;
-  top: 50%;
+  top: 45%;
   left: 45;
   right: 45;
   color: white;
@@ -79,7 +79,12 @@ background-size: cover;
 .main-header > h1 {
   text-align: center;
   margin: 0 auto;
-  font-size: 108pt;
+  font-size: 130pt;
+}
+
+.main-header p {
+  font-family: 'Avenir';
+  text-align: center;
 }
 
 .nav {
@@ -199,7 +204,7 @@ a {
 .overview-of-weaver {
   height: 100%;
   width: 100%;
-  background: rgba(35, 31, 32, 0.46);
+  background: rgba(35, 31, 32, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -209,13 +214,22 @@ a {
   margin: 0;
   color: white;
   padding: 70 0 10 0;
+  font-family: 'Avenir-Next';
+  letter-spacing: 15px;
+}
+
+.overview-of-weaver h5 {
+  font-family: 'Avenir';
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 3px;
 }
 
 .button {
   background-color: #fdc351;
   border: none;
   color: white;
-  padding: 3px 20px;
+  padding: 1px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
